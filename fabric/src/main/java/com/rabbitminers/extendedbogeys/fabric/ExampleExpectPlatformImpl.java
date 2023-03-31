@@ -1,6 +1,6 @@
-package net.examplemod.fabric;
+package com.rabbitminers.extendedbogeys.fabric;
 
-import net.examplemod.ExampleExpectPlatform;
+import com.rabbitminers.extendedbogeys.ExampleExpectPlatform;
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.nio.file.Path;

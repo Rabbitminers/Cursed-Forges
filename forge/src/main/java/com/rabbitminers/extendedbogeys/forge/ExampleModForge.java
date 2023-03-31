@@ -1,7 +1,7 @@
-package net.examplemod.forge;
+package com.rabbitminers.extendedbogeys.forge;
 
+import com.rabbitminers.extendedbogeys.ExampleMod;
 import dev.architectury.platform.forge.EventBuses;
-import net.examplemod.ExampleMod;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 

@@ -1,6 +1,6 @@
-package net.examplemod.forge;
+package com.rabbitminers.extendedbogeys.forge;
 
-import net.examplemod.ExampleExpectPlatform;
+import com.rabbitminers.extendedbogeys.ExampleExpectPlatform;
 import net.minecraftforge.fml.loading.FMLPaths;
 
 import java.nio.file.Path;

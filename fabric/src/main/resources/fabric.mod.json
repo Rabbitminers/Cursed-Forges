@@ -1,22 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "extendedbogeys",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Extended Bogeys",
+  "description": "Adding new types of bogeys to create",
   "authors": [
-    "Me!"
+    "Rabbitminers",
+    "RailFanNate",
+    "Keanes",
+    "Matt",
+    "Kurocat471"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-  "license": "Insert License Here",
+  "license": "GNU GPLv3",
   "icon": "assets/examplemod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "com.rabbitminers.extendedbogeys.fabric.ExampleModFabric"
     ]
   },
   "mixins": [
@@ -26,6 +30,15 @@
   "depends": {
     "fabric": "*",
     "minecraft": ">=1.18.2",
-    "architectury": ">=4.9.83"
+    "apolloslib": "*",
+    "polarisfol": "*",
+    "raposofill": "*",
+    "isopollafr": "*",
+    "lisplofaro": "*",
+    "floraliops": "*",
+    "oorialsplf": "*",
+    "olofspiral": "*",
+    "lapisfloro": "*",
+    "spiralfool": "*"
   }
 }
