@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <!-- Written in 2 hours ignore some of the interessting decesions made -->
+<html>
+
+<body>
 <div>
     <div class="header">
         <div class="left-header">
-            <img style="width: 24px; margin-right: 10px;" id="logo" src="https://www.curseforge.com/Content/2-0-8488-30090/Skins/CurseForge/images/anvil.svg" alt="logo" />
+            <img style="width: 5vh; margin-right: 10px;" id="logo" src="https://www.curseforge.com/Content/2-0-8490-25438/Skins/CurseForge/images/anvil.svg" alt="logo" />
             <button onclick="april()">Browse</button>
             <button onclick="april()"> CursedForges App</button>
             <button onclick="april()">Create A Project</button>
@@ -23,7 +26,6 @@
 
     <div class="big-banner-thing">
     </div>
-
     <div class="mod-wrapper">
         <div class="mod-banner">
             <img id="mod-image" src="https://media.forgecdn.net/avatars/thumbnails/594/523/64/64/637968460826818042_animated.gif" alt="" class="mx-auto">
@@ -36,26 +38,29 @@
         <hr/>
         <div class="project">
             <div class="mod-description">
-                <h5>This mod is an addon to <a href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a>, it adds new variations of the Bogey aswell as expanding on them with new variations, rotations, colours and accents to help you build and
-                    enhance immersion in create.</h5>
+                <h5>This mod is an addon to <a href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a>, it adds new variations of the Bogey aswell as expanding on them with new variations, rotations, colours and accents to help you build
+                    and enhance immersion in create.</h5>
 
                 For more decorations for your trains check out Dave's Building Extended Fabric or on Forge Powderlogy & Illumination, Dave's Building Extended
 
                 <p>Extended Bogeys supports both 1.18.2 & 1.19.2 and create versions 0.5.0.h and above</p>
 
                 <h2>Styles</h2>
-
+                <hr/>
                 <h3>Four Wheel Driver (0-4-0)</h3>
-
+                <hr/>
                 <img src="https://media.discordapp.net/attachments/1069327918385348688/1069700855936335963/0-4-0.png?width=622&height=622">
 
                 <br/>
                 <h3>Six Wheel Driver (0-6-0)</h3>
+                <hr/>
                 <img src="https://media.discordapp.net/attachments/1069393498287116318/1070759731402133644/v5.png?width=830&height=622">
 
                 <h4>And Many More!</h4>
+                <hr/>
 
-                <iframe width="500" height="300" src="https://www.youtube.com/embed/vPDKNOeDsAw">
+                <h4>How do I use it?</h4>
+                <iframe width="100%" height="300" src="https://www.youtube.com/embed/vPDKNOeDsAw">
                 </iframe>
 
                 <br> <br> If any issues occur or you find any bugs feel free to contact me on discord at Rabbitminers#0086 or report them on github at <a href="https://github.com/Rabbitminers/Extended-Bogeys/issues">https://github.com/Rabbitminers/Extended-Bogeys/issues</a>;
@@ -73,7 +78,9 @@
                     <a>Total Downloads</a> <a style="text-align: right;">About 3</a>
                     <a>License</a> <a style="text-align: right;">Its not real</a>
                 </div>
+                <br/>
                 <button id="following">Following</button>
+                <br/>
                 <hr/>
                 <b>Catagories</b>
                 <br/> <br/>
@@ -84,214 +91,253 @@
                 <li>Keanes</li>
                 <li>Matt</li>
                 <li>kurocat471</li>
+                <br/>
                 <hr/>
                 <b>Recent Files</b>
                 <p>Minecraft 1.19.2</p>
                 <div class="download">
-                    <div>
-                        <div>R</div> extended-bogeys-1.0.0-1.18.2-0.5.g.jar
-                    </div>
-                    <button id="download">
+                    <div>R</div>
+                    <a>extendedbogeys-1.0.0-1.19.2-0.5.i.jar</a>
+                    <button id="download" onclick="download('extendedbogeys-1.0.0-1.19.2-0.5.0.i.jar')">
                         <img src="https://imgs.search.brave.com/cb7qmSisDB8LgQ3kMpPUDKrLMNdlxNTUsKnL_oJvTLE/rs:fit:256:256:1/g:ce/aHR0cHM6Ly93d3cu/aWNvbnNkYi5jb20v/aWNvbnMvcHJldmll/dy93aGl0ZS9kb3du/bG9hZC0yLXh4bC5w/bmc">
                     </button>
                 </div>
                 <p>Minecraft 1.18.2</p>
                 <div class="download">
-                    <div>
-                        <div>R</div> extended-bogeys-1.0.0-1.19.2-0.5.g.jar
-                    </div>
-                    <button id="download">
+                    <div>R</div>
+                    <a>extendedbogeys-1.0.0-1.18.2-0.5.i.jar</a>
+                    <button id="download" onclick="download('extendedbogeys-1.0.0-1.18.2-0.5.0.i.jar')">
                         <img src="https://imgs.search.brave.com/cb7qmSisDB8LgQ3kMpPUDKrLMNdlxNTUsKnL_oJvTLE/rs:fit:256:256:1/g:ce/aHR0cHM6Ly93d3cu/aWNvbnNkYi5jb20v/aWNvbnMvcHJldmll/dy93aGl0ZS9kb3du/bG9hZC0yLXh4bC5w/bmc">
                     </button>
                 </div>
             </div>
         </div>
-    </div>
+        <br/>
+        <h3>Comments</h3>
 
-    <h3>Comments</h3>
-
-    <div id="comments-text">
-        No Comments Yet... (I didnt implement a comments system)
+        <div id="comments-text">
+            No Comments Yet... (I didnt implement a comments system)
+        </div>
     </div>
 </div>
+</body>
 
-<style>
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        color: black;
-        border: 0;
-    }
-
-    .big-banner-thing {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        width: 100%;
-        height: 200px;
-        background-image: linear-gradient(to top, #fff, rgba(0, 0, 0, 0)), url('https://media.forgecdn.net/game-covers/432_6b01b380-9b98-4b0a-b885-bb0d51c27533.webp');
-    }
-
-    .header {
-        background-color: #333;
-        color: #fff;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        padding: 20px;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .right-header>button {
-        background-color: #00000000;
-        border-radius: 3px;
-        border-color: #fff;
-        color: white;
-        margin-left: 10px;
-    }
-
-    .right-header>b {
-        color: orange;
-        font-size: small;
-    }
-
-    .mod-wrapper {
-        margin-top: 160px;
-    }
-
-    .mod-banner {
-        display: flex;
-    }
-
-    #mod-image {
-        border-radius: 10px;
-        height: 60px;
-        width: 60px;
-        margin: 10px;
-    }
-
-    .mod-info {
-        padding: 10px;
-    }
-
-    .mod-info>a {
-        font-size: small;
-    }
-
-    .mod-info>p {
-        font-size: small;
-        color: gray;
-        margin: 0;
-        margin-top: 5px;
-    }
-
-    @media (min-width: 900px) {
-        .project {
-            display: grid;
-            grid-template-columns: 70% 27.5%;
-            gap: 20px;
+<head>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            border: 0;
         }
-        .left-header>button {
-            background: #00000000;
-            border: none;
-            color: white;
+
+        .mod-wrapper {
+            margin: auto;
+            max-width: 1440px;
+            margin-top: 15vh;
+        }
+
+        .big-banner-thing {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 20vh;
+            background-image: linear-gradient(to top, #fff, rgba(0, 0, 0, 0)), url('https://media.forgecdn.net/game-covers/432_6b01b380-9b98-4b0a-b885-bb0d51c27533.webp');
+            background-size: cover;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 2vh;
+            box-sizing: border-box;
+            display: flex;
             flex-direction: row;
+            justify-content: space-between;
         }
-    }
 
-    @media(max-width: 900px) {
-        .project {
+        .right-header>button {
+            padding: 0.75vh;
+            background-color: #00000000;
+            border-radius: 3px;
+            border-color: #fff;
+            color: white;
+            margin-left: 10px;
+            font-size: 1.5vh;
+        }
+
+        .right-header>b {
+            color: orange;
+            font-size: 1.5vh;
+        }
+
+        .mod-banner {
+            display: flex;
+        }
+
+        #mod-image {
+            border-radius: 10px;
+            height: 9vh;
+            width: auto;
+            margin: 10px;
+        }
+
+        .mod-info {
+            padding: 10px;
+            margin-bottom: 1vh;
+        }
+
+        .mod-info>b {
+            font-size: 2vh;
+        }
+
+        .mod-info>a {
+            font-size: 1.5vh;
+        }
+
+        .mod-info>p {
+            font-size: 1.5vh;
+            color: gray;
+            margin: 0;
+            margin-top: 5px;
+        }
+
+        .left-header {
+            display: flex;
+            align-items: center;
+        }
+
+        @media only screen and (min-width: 12in) {
+            .project {
+                display: grid;
+                grid-template-columns: 70% 27.5%;
+                gap: 20px;
+            }
+            .left-header>button {
+                background: #00000000;
+                border: none;
+                color: white;
+                flex-direction: row;
+            }
+        }
+
+        @media only screen and (max-width: 12in) {
+            .project {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(2, auto);
+                gap: 20px;
+            }
+            .project>div:nth-child(2) {
+                grid-row: 1;
+            }
+            .left-header>button {
+                display: none;
+            }
+            .about-project {
+                margin-top: 2vw;
+            }
+            .mod-description {
+                margin: 10px;
+            }
+        }
+
+        .mod-description {
+            text-align: center;
+        }
+
+        .mod-description>img {
+            border-radius: 10px;
+        }
+
+        .project>div {
+            height: fit-content;
+            box-shadow: 3px 3px 10px #aaa;
+            padding: 20px;
+            border-radius: 1vh;
+        }
+
+        #project-info {
+            font-size: small;
             display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: repeat(2, auto);
-            gap: 20px;
+            grid-template-columns: 50% 50%;
+            gap: 5px;
         }
-        .project>div:nth-child(2) {
-            grid-row: 1;
+
+        #following {
+            background-color: orangered;
+            border-style: none;
+            border-radius: 5px;
+            color: white;
+            padding: 1vh;
+            margin-top: 0.7vh;
+            margin-bottom: 0.7vh;
         }
-        .left-header>button {
-            display: none;
+
+        li {
+            margin-top: 8.5px;
+            font-size: small;
         }
-    }
 
-    .project>div {
-        height: fit-content;
-        box-shadow: 3px 3px 10px #aaa;
-        padding: 20px;
-        border-radius: 10px;
-    }
+        #comments-text {
+            margin-top: 10vh;
+            text-align: center;
+            color: gray;
+            margin-bottom: 100px;
+        }
 
-    #project-info {
-        font-size: small;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        gap: 5px;
-    }
+        img {
+            width: 100%;
+            height: auto;
+        }
 
-    #following {
-        background-color: orangered;
-        border-style: none;
-        border-radius: 5px;
-        color: white;
-        padding: 6px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: small;
-    }
+        .download {
+            display: flex;
+            font-size: 1.7vh;
+            border-radius: 3px;
+            border-style: solid;
+            border-width: 1px;
+            padding: 10px;
+            border-color: #aaa;
+            justify-content: space-between;
+            gap: 1vh;
+        }
 
-    li {
-        margin-top: 8.5px;
-        font-size: small;
-    }
+        .download>a {
+            text-align: left;
+            font-size: 1.6vh;
+        }
 
-    #comments-text {
-        text-align: center;
-        color: gray;
-        margin-bottom: 100px;
-    }
+        .download>div {
+            line-height: 4vh;
+            text-align: center;
+            background-color: #14b866;
+            width: 4vh;
+            height: 4vh;
+            border-radius: 1vh;
+            font-size: 2vh;
+            color: white;
+        }
 
-    img {
-        width: 100%;
-        height: auto;
-    }
+        .download>button {
+            background-color: orangered;
+            border-style: none;
+            border-radius: 1vh;
+            width: 4vh;
+            height: 4vh;
+        }
 
-    .download {
-        display: flex;
-        font-size: small;
-        border-radius: 3px;
-        border-style: solid;
-        border-width: 1px;
-        padding: 10px;
-        border-color: #aaa;
-        justify-content: space-between;
-    }
-
-    .download>div {
-        display: grid;
-        grid-template-columns: 20px auto;
-        gap: 6px;
-        text-align: center;
-    }
-
-    .download>div>div {
-        text-align: center;
-        background-color: #14b866;
-        padding: 5px;
-        border-radius: 1px;
-        color: white;
-    }
-
-    .download>button {
-        background-color: orangered;
-        border-style: none;
-        border-radius: 5px;
-        width: 20px;
-    }
-</style>
+        .download>button>img {
+            height: 2vh;
+            width: 2vh;
+        }
+    </style>
+</head>
 
 <script>
     function april() {
@@ -299,4 +345,15 @@
         const randomIndex = Math.floor(Math.random() * messages.length);
         alert(messages[randomIndex]);
     }
+
+    function download(url) {
+        const a = document.createElement('a')
+        a.href = url;
+        a.download = url.split('/').pop()
+        document.body.appendChild(a)
+        a.click()
+        document.body.removeChild(a)
+    }
 </script>
+
+</html>
